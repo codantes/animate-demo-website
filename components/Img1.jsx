@@ -3,7 +3,7 @@ import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 const Img1 = () => {
     const { scrollYProgress } = useViewportScroll()
-    const translateY = useTransform(scrollYProgress, [0.82, 1], [0, -300]);
+    const translateY = useTransform(scrollYProgress, [0.8, 0.9], [0, -220]);
     
     return ( 
         <motion.img 
